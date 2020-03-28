@@ -1,0 +1,60 @@
+.icon_os {
+	display:block;
+	width: 16px;
+	height: 16px;
+	margin: 0;
+	float:left;
+	background: no-repeat center;
+}
+
+.icon_opera { background: url(../img/browsers/opera.svg); }
+.icon_firefox { background:url(../img/browsers/firefox.svg); }
+.icon_edge { background:url(../img/browsers/edge.svg); }
+/*.icon_qq { background:url(../img/browsers/qq.svg); }
+.icon_wechat { background:url(../img/browsers/wechat.svg); }
+.icon_qqbrowser { background:url(../img/browsers/qqbrowser.svg); }
+.icon_ucbrowser { background:url(../img/browsers/uc.svg); }
+.icon_alipay { background:url(../img/browsers/alipay.svg); }
+.icon_qqmail { background:url(../img/browsers/qqmail.svg); }
+.icon_baidu { background:url(../img/browsers/baidu.svg); }
+.icon_maxthon { background:url(../img/browsers/maxthon.svg); }
+.icon_sogou { background:url(../img/browsers/sogou.svg); }
+.icon_360browser { background:url(../img/browsers/360.svg); }
+.icon_2345browser { background:url(../img/browsers/2345.svg); }
+.icon_liebao { background:url(../img/browsers/liebao.svg); }
+.icon_adblock { background:url(../img/browsers/adblock.svg); }*/
+.icon_chrome { background: url(../img/browsers/chrome.svg); }
+.icon_safari { background:url(../img/browsers/safari.svg); }
+.icon_ie { background:url(../img/browsers/ie.svg); }
+/*.icon_vivo { background:url(../img/browsers/vivo.svg); }
+.icon_zhihu { background:url(../img/browsers/zhihu.svg); }
+.icon_mi { background:url(../img/browsers/mi.svg); }
+.icon_163 { background:url(../img/browsers/163.svg); }
+.icon_sina { background:url(../img/browsers/sina.svg); }
+.icon_linkedin { background:url(../img/browsers/linkedin.svg); }
+.icon_facebook { background:url(../img/browsers/facebook.svg); }
+.icon_instagram { background:url(../img/browsers/instagram.svg); }
+.icon_ctrip { background:url(../img/browsers/ctrip.svg); }
+.icon_189 { background:url(../img/browsers/189.svg); }
+.icon_139 { background:url(../img/browsers/139.svg); }
+.icon_yy { background:url(../img/browsers/yy.svg); }
+.icon_douyu { background:url(../img/browsers/douyu.svg); }
+.icon_iqiyi { background:url(../img/browsers/iqiyi.svg); }
+.icon_imgotv { background:url(../img/browsers/imgotv.svg); }
+.icon_sohu { background:url(../img/browsers/sohu.svg); }
+.icon_taobao { background:url(../img/browsers/taobao.svg); }
+.icon_jumei { background:url(../img/browsers/jumei.svg); }
+.icon_suning { background:url(../img/browsers/suning.svg); }*/
+.icon_others { background:url(../img/browsers/others.svg); }
+
+.icon_android { background:url(../img/os/android.svg); }
+/*.icon_blackberry { background: url(../img/os/blackberry.svg); }
+.icon_fxos { background: url(../img/os/fxos.svg); }*/
+.icon_ios { background: url(../img/os/ios.svg); }
+.icon_linux { background: url(../img/os/linux.svg); }
+.icon_macos { background: url(../img/os/macos.svg); }
+/*.icon_tv { background: url(../img/os/tv.svg); }*/
+.icon_unknown { background: url(../img/os/unknown.svg); }
+.icon_win7 { background: url(../img/os/win7.svg); }
+.icon_win10 { background: url(../img/os/win10.svg); }
+.icon_win32 { background: url(../img/os/win32.svg); } 

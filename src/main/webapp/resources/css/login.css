@@ -1,0 +1,19 @@
+body {
+	background: #999;
+}
+
+.middle {
+	background: #FFF;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 200px;
+	padding: 20px;
+	width: 850px;
+	height: 300px;
+}
+
+.hint {
+	font-style:italic;
+	color:#F00;
+	font-size:9px;
+}

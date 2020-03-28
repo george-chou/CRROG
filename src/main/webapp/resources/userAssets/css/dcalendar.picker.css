@@ -1,0 +1,25 @@
+.mydatepicker {
+	width: 175px;
+}
+
+.datespan
+{
+	float:left;
+	width:40px;
+	display:block;
+	padding-top:9px;
+}
+
+.add, .delete {
+	float: right;
+	border-width: 0px;
+	border-radius: 3px;
+	background: #37474f;
+	outline: none;
+	color: white;
+	font-size: 17px;
+}
+
+#facilities input[type=text] {
+	display:inline;
+}

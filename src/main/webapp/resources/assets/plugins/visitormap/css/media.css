@@ -1,0 +1,147 @@
+#chartdiv {
+  width: 100%;
+  /*height: 500px;*/
+  overflow: hidden;
+}
+
+.map-marker {
+    /* adjusting for the marker dimensions
+    so that it is centered on coordinates */
+    margin-left: -8px;
+    margin-top: -8px;
+}
+.map-marker.map-clickable {
+    cursor: pointer;
+}
+/*
+.pulse {
+    width: 6px;
+    height: 6px; 
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #f7f14c;
+    z-index: 10;
+    position: absolute;
+	margin-top:3px;
+	margin-left:3px;
+}
+*/
+.marker-tip {
+	display:none;
+	font-size:12px;
+	padding:4px;
+	background-color:#fff;
+	z-index:999;
+	position:relative;
+	cursor:default;
+	box-shadow: 1px 1px 3px #ccc;
+	
+	border: 3px solid #f7f14c;	
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;	
+	-moz-border-top-right-radius: 8px;
+	-moz-border-bottom-right-radius: 8px;
+	-moz-border-bottom-left-radius: 8px;
+	
+	-moz-animation: fadeEffect 0.3s;
+    -webkit-animation: fadeEffect 0.3s;
+    animation: fadeEffect 0.3s;
+}
+
+/* Fade in tabs */
+@-moz-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+ 
+ .pulse {
+    width: 10px;
+    height: 10px;
+	border: 3px solid #f7f14c;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #f7f14c;
+    z-index: 10;
+    position: absolute;
+  }
+
+.map-marker .dot {
+    border: 10px solid #fff601;
+    background: transparent;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    height: 50px;
+    width: 50px;
+    -webkit-animation: pulse 3s ease-out;
+    -moz-animation: pulse 3s ease-out;
+    animation: pulse 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: 1;
+    opacity: 0;
+  }
+  @-moz-keyframes pulse {
+   0% {
+      -moz-transform: scale(0);
+      opacity: 0.0;
+   }
+   25% {
+      -moz-transform: scale(0);
+      opacity: 0.1;
+   }
+   50% {
+      -moz-transform: scale(0.1);
+      opacity: 0.3;
+   }
+   75% {
+      -moz-transform: scale(0.5);
+      opacity: 0.5;
+   }
+   100% {
+      -moz-transform: scale(1);
+      opacity: 0.0;
+   }
+  }
+  @-webkit-keyframes "pulse" {
+   0% {
+      -webkit-transform: scale(0);
+      opacity: 0.0;
+   }
+   25% {
+      -webkit-transform: scale(0);
+      opacity: 0.1;
+   }
+   50% {
+      -webkit-transform: scale(0.1);
+      opacity: 0.3;
+   }
+   75% {
+      -webkit-transform: scale(0.5);
+      opacity: 0.5;
+   }
+   100% {
+      -webkit-transform: scale(1);
+      opacity: 0.0;
+   }
+  }
