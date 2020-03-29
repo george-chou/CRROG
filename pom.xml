@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--project xmlns="http://maven.apache.org/POM/9.0.33" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/9.0.33 https://maven.apache.org/maven-v9_0_33.xsd">
+<project xmlns="http://maven.apache.org/POM/9.0.33" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/9.0.33 https://maven.apache.org/maven-v9_0_33.xsd">
 	<modelVersion>9.0.33</modelVersion>
 	<groupId>au.edu</groupId>
 	<artifactId>sydney</artifactId>
@@ -57,7 +57,7 @@
 			<version>${org.slf4j-version}</version>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
+		<!--dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.15</version>
@@ -80,7 +80,7 @@
 				</exclusion>
 			</exclusions>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency-->
 
 		<!-- @Inject -->
 		<dependency>
@@ -176,11 +176,11 @@
 			<version>1.0.0.GA</version>
 		</dependency>
 		
-		<dependency>
+		<!--dependency>
         	<groupId>commons-fileupload</groupId>
         	<artifactId>commons-fileupload</artifactId>
         	<version>1.3.1</version>
-		</dependency>
+		</dependency-->
 		
 		<dependency>
         	<groupId>org.springframework.boot</groupId>
@@ -193,7 +193,7 @@
 			<artifactId>jackson-core-asl</artifactId>
 			<version>1.9.13</version>
 		</dependency>
-		<dependency>
+		<!--dependency>
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-mapper-asl</artifactId>
 			<version>1.9.13</version>
@@ -202,7 +202,7 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>2.8.0</version>
-		</dependency>
+		</dependency-->
 
 	</dependencies>
     <build>
@@ -243,4 +243,4 @@
             </plugin>
         </plugins>
     </build>
-</project-->
+</project>
