@@ -6,9 +6,15 @@
 
 Customised realtime resume online generator
 
-For deployment, please put your private key at the same path of `README.md` and update your public DNS in `.circleci/config.yml`.
+## MySQL
 
-To check database structures, please refer to domain codes (`User.java` and `Company.java`).
+To check database structures, please refer to domain codes (`User.java` and `Company.java`);
+Please set the username and password of the source code corresponding with your MySQL.
+
+## Deployment
+
+Please put your private key at the same path of `README.md` and update your public DNS in `.circleci/config.yml`;
+Connect GitHub to CircleCI and create a building label for deployment on `README.md`.
 
 ## DEV MANUAL
 

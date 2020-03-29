@@ -1,5 +1,7 @@
 package au.sydney.elec5619.web;
 
+import org.apache.commons.lang.StringUtils;
+
 import java.util.List;
 import java.util.Map;
 
@@ -24,7 +26,6 @@ import au.sydney.elec5619.service.EnterpriseService;
 import au.sydney.elec5619.service.IUserService;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
-
 
 @Controller
 @SessionAttributes(value={"client", "temp"}, types={String.class, String.class})
@@ -69,18 +70,18 @@ public class CompleteController {
 		User user = (User)getSession().getAttribute("client");
 		IUserService uServivce = new IUserService(user);
 		
-		if(!firstname.isBlank()) uServivce.completeUser("first", firstname);
-		if(!lastname.isBlank()) uServivce.completeUser("last", lastname);
-		if(!birth.isBlank()) uServivce.completeUser("birth", birth);
-		if(!country.isBlank()) uServivce.completeUser("country", country);
-		if(!city.isBlank()) uServivce.completeUser("city", city);
-		if(!job.isBlank()) uServivce.completeUser("job", job);
+		if(!StringUtils.isBlank(firstname)) uServivce.completeUser("first", firstname);
+		if(!StringUtils.isBlank(lastname))uServivce.completeUser("last", lastname);
+		if(!StringUtils.isBlank(birth))uServivce.completeUser("birth", birth);
+		if(!StringUtils.isBlank(country))uServivce.completeUser("country", country);
+		if(!StringUtils.isBlank(city))uServivce.completeUser("city", city);
+		if(!StringUtils.isBlank(job))uServivce.completeUser("job", job);
 		uServivce.completeUser("gender", String.valueOf(gender));
-		if(!about.isBlank()) uServivce.completeUser("about", about);
-		if(!photo.isBlank()) uServivce.completeUser("photo", photo);
-		if(!gitname.isBlank()) uServivce.completeUser("githubname", gitname);
+		if(!StringUtils.isBlank(about))uServivce.completeUser("about", about);
+		if(!StringUtils.isBlank(photo))uServivce.completeUser("photo", photo);
+		if(!StringUtils.isBlank(gitname))uServivce.completeUser("githubname", gitname);
 		uServivce.completeUser("gitsw", bool2str(gitsw));
-		if(!qmuslist.isBlank()) uServivce.completeUser("songlist", qmuslist);
+		if(!StringUtils.isBlank(qmuslist))uServivce.completeUser("songlist", qmuslist);
 		uServivce.completeUser("qqmusicsw", bool2str(qmusw));
 		uServivce.completeUser("visitormap", bool2str(mapsw));
 		uServivce.completeUser("pgsw", bool2str(pgsw));	
@@ -268,14 +269,14 @@ public class CompleteController {
 		Company enter = (Company)getSession().getAttribute("client");
 		EnterpriseService eServivce = new EnterpriseService(enter);
 		
-		if(!companyname.isBlank()) eServivce.completeCompany("companyname", companyname);
-		if(!companycode.isBlank()) eServivce.completeCompany("companycode", companycode);
-		if(!location.isBlank()) eServivce.completeCompany("location", location);
-		if(!establishdate.isBlank()) eServivce.completeCompany("establishdate", establishdate);
-		if(!license.isBlank()) eServivce.completeCompany("license", license);
-		if(!homepage.isBlank()) eServivce.completeCompany("homepage", homepage);
-		if(!phone.isBlank()) eServivce.completeCompany("phone", phone);
-		if(!companytype.isBlank()) eServivce.completeCompany("companytype", companytype);
+		if(!StringUtils.isBlank(companyname))eServivce.completeCompany("companyname", companyname);
+		if(!StringUtils.isBlank(companycode))eServivce.completeCompany("companycode", companycode);
+		if(!StringUtils.isBlank(location))eServivce.completeCompany("location", location);
+		if(!StringUtils.isBlank(establishdate))eServivce.completeCompany("establishdate", establishdate);
+		if(!StringUtils.isBlank(license))eServivce.completeCompany("license", license);
+		if(!StringUtils.isBlank(homepage))eServivce.completeCompany("homepage", homepage);
+		if(!StringUtils.isBlank(phone))eServivce.completeCompany("phone", phone);
+		if(!StringUtils.isBlank(companytype))eServivce.completeCompany("companytype", companytype);
 		eServivce.completeCompany("scale", String.valueOf(scale));
 		eServivce.completeCompany("audit", "0");
 

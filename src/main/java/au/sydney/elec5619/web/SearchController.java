@@ -9,6 +9,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -192,7 +193,7 @@ public class SearchController {
 			return CV_URL;
 		}
 		
-		if(getSession().getAttribute("client") != null && !username.isBlank())
+		if(getSession().getAttribute("client") != null && !StringUtils.isBlank(username))
 		{
 			if(getSession().getAttribute("client").getClass().equals(User.class))
 			{

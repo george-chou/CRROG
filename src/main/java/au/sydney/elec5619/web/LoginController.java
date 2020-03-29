@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+
+import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -245,7 +247,7 @@ public class LoginController
 	) {
 		
 		Map<String,Object> resultMap = new HashMap<String, Object>();
-		if(username.isBlank() || suffix.isBlank())
+		if(StringUtils.isBlank(username) || StringUtils.isBlank(suffix))
 		{
 			resultMap.put("result", "(x)Invalid email.");
 			return resultMap;
