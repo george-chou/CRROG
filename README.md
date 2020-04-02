@@ -14,7 +14,7 @@ Please set the username and password of the source code corresponding with your 
 ## Deployment
 
 Please put your private key at the same path of `README.md` and update your public DNS in `.circleci/config.yml`;
-Connect GitHub to CircleCI and create a building label for deployment on `README.md`.
+Connect GitHub to CircleCI and create a building label for deployment on `README.md.`
 
 ## DEV MANUAL
 
