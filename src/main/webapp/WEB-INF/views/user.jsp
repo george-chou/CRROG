@@ -42,7 +42,7 @@
 				</button>
 				<ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
 					<a href="logout" style="text-decoration: none;"><li class="mdl-menu__item">Logout</li></a>
-					<a href="mailto:zigzagbob@foxmail.com" style="text-decoration: none;"><li class="mdl-menu__item">Feedback</li></a>
+					<a href="mailto:georgechou21@gmail.com" style="text-decoration: none;"><li class="mdl-menu__item">Feedback</li></a>
 				</ul>
 			</div>
 		</header>

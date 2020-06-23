@@ -41,7 +41,7 @@ public class UserTest {
 		user.setLastname("Chou");
 		user.setFolios(award);
 		user.setGender(1);
-		user.setGithubname("zigzagbob");
+		user.setGithubname("george-chou");
 		user.setGithubsw(true);
 		user.setGithuburl(url);
 		user.setGitsw(true);
@@ -192,7 +192,7 @@ public class UserTest {
 
 	@Test
 	public void testGetGithubname() {
-		Assert.assertEquals(user.getGithubname(), "zigzagbob");
+		Assert.assertEquals(user.getGithubname(), "george-chou");
 		//fail("Not yet implemented");
 	}
 

@@ -158,8 +158,7 @@
                 <section class="github section">
                     <div class="section-inner">
                         <h2 class="heading">My GitHub</h2>
-                        <p>You can embed your GitHub activities using ${sessionScope.temp.getGithubname() }'s <a href="https://github.com/${sessionScope.temp.getGithubname() }" target="_blank">GitHub Activity Stream</a> widget.        
-                        <!--//Usage: http://zigzagbob.com/projects/github-activity/ -->                       
+                        <p>You can embed your GitHub activities using ${sessionScope.temp.getGithubname() }'s <a href="https://github.com/${sessionScope.temp.getGithubname() }" target="_blank">GitHub Activity Stream</a> widget.                       
                         <div id="ghfeed" class="ghfeed">
                         </div><!--//ghfeed-->
                         
@@ -237,16 +236,6 @@
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
-                
-                <!--aside class="blog aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Latest Blog Posts</h2>
-                        <p>You can use zigzagbob's <a href="https://weibo.com/" target="_blank">Sina Weibo</a> to pull in your blog post feeds.</p>
-                        <div id="rss-feeds" class="content">
-
-                        </div>
-                    </div>
-                </aside-->
                 
                 <aside class="list music aside section">
                     <div class="section-inner">
