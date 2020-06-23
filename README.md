@@ -16,10 +16,15 @@ Spring Tool Suite 4 + JDK + Apache-tomcat 9.0.33 + XAMPP;
 Run XAMPP to run the phpmyadmin with MySQL;
 
 Open STS, select a workspace and follow the operations below:
+
 [File]->[Import]->[Maven]->[Existing Maven Projects]->[Select the source code];
+
 [Right click the project]->[Maven]->[Update project...]->[Force Update of Snapshots/Releases]->[OK];
+
 [Window]->[Show View]->[Other...]->[Server/Servers];
+
 [No servers are available. Click this link to create a new server...]->[Apache/Tomcat v9.0 Server]->[Next>]->[Browse...]->[The directory where you installed Apache-tomcat 9.0.33]->[JRE:]->[Add All>>]->[Finish];
+
 [Right click the project]->[Debug As]->[1 Debug on Server].
 
 ## MySQL
