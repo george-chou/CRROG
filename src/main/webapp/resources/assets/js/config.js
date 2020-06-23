@@ -1,4 +1,4 @@
-var domain = "http://localhost"//"https://zigzagbob.free.idcfengye.com";
+var domain = "http://localhost";
 
 var isEn = !(document.location.href.indexOf("-cn.html") > -1);
 
@@ -50,6 +50,6 @@ requirejs.config({
 
 requirejs(['github'], function(GitHubActivity) {
 	
-	GitHubActivity.feed({ username: "zigzagbob", selector: "#ghfeed" });
+	GitHubActivity.feed({ username: "george-chou", selector: "#ghfeed" });
 	
 });	
