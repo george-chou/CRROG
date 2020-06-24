@@ -13,9 +13,7 @@ Spring Tool Suite 4 + JDK + Apache-tomcat 9.0.33 + XAMPP;
 
 ## Build
 
-Run XAMPP to run the phpmyadmin with MySQL;
-
-Open STS, select a workspace and follow the operations below:
+Open XAMPP to run the phpmyadmin with MySQL; Open STS, select a workspace and follow the operations below:
 
 Step1: [File]->[Import]->[Maven]->[Existing Maven Projects]->[Select the source code];
 
