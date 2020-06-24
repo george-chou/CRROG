@@ -2,8 +2,8 @@
 
 [![license](https://img.shields.io/github/license/george-chou/CRROG.svg)](https://github.com/george-chou/CRROG/blob/master/LICENSE)
 ![Java CI with Maven](https://github.com/george-chou/CRROG/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
-[![Github All Releases](https://img.shields.io/github/downloads/george-chou/CRROG/total.svg)](https://github.com/george-chou/CRROG/releases)
-[![GitHub release](https://img.shields.io/github/release/george-chou/CRROG.svg)](https://github.com/george-chou/CRROG/releases/latest)
+<!--[![Github All Releases](https://img.shields.io/github/downloads/george-chou/CRROG/total.svg)](https://github.com/george-chou/CRROG/releases)
+[![GitHub release](https://img.shields.io/github/release/george-chou/CRROG.svg)](https://github.com/george-chou/CRROG/releases/latest)-->
 
 Customised realtime resume online generator
 
@@ -17,15 +17,15 @@ Run XAMPP to run the phpmyadmin with MySQL;
 
 Open STS, select a workspace and follow the operations below:
 
-[File]->[Import]->[Maven]->[Existing Maven Projects]->[Select the source code];
+Step1: [File]->[Import]->[Maven]->[Existing Maven Projects]->[Select the source code];
 
-[Right click the project]->[Maven]->[Update project...]->[Force Update of Snapshots/Releases]->[OK];
+Step2: [Right click the project]->[Maven]->[Update project...]->[Force Update of Snapshots/Releases]->[OK];
 
-[Window]->[Show View]->[Other...]->[Server/Servers];
+Step3: [Window]->[Show View]->[Other...]->[Server/Servers];
 
-[No servers are available. Click this link to create a new server...]->[Apache/Tomcat v9.0 Server]->[Next>]->[Browse...]->[The directory where you installed Apache-tomcat 9.0.33]->[JRE:]->[Add All>>]->[Finish];
+Step4: [No servers are available. Click this link to create a new server...]->[Apache/Tomcat v9.0 Server]->[Next>]->[Browse...]->[The directory where you installed Apache-tomcat 9.0.33]->[JRE:]->[Add All>>]->[Finish];
 
-[Right click the project]->[Debug As]->[1 Debug on Server].
+Step5: [Right click the project]->[Debug As]->[1 Debug on Server].
 
 ## MySQL
 
