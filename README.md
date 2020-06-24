@@ -1,7 +1,7 @@
 # CRROG
 
 [![license](https://img.shields.io/github/license/george-chou/CRROG.svg)](https://github.com/george-chou/CRROG/blob/master/LICENSE)
-![Java CI with Maven](https://github.com/george-chou/CRROG/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
+[![Java CI with Maven](https://github.com/george-chou/CRROG/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)](https://github.com/george-chou/CRROG/actions)
 <!--[![Github All Releases](https://img.shields.io/github/downloads/george-chou/CRROG/total.svg)](https://github.com/george-chou/CRROG/releases)
 [![GitHub release](https://img.shields.io/github/release/george-chou/CRROG.svg)](https://github.com/george-chou/CRROG/releases/latest)-->
 
