@@ -1,9 +1,8 @@
-﻿# CRROG
+# CRROG
 
 [![license](https://img.shields.io/github/license/george-chou/CRROG.svg)](https://github.com/george-chou/CRROG/blob/master/LICENSE)
 [![Java CI with Maven](https://github.com/george-chou/CRROG/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)](https://github.com/george-chou/CRROG/actions)
 <!--[![Github All Releases](https://img.shields.io/github/downloads/george-chou/CRROG/total.svg)](https://github.com/george-chou/CRROG/releases)
-[![GitHub release](https://img.shields.io/github/release/george-chou/CRROG.svg)](https://github.com/george-chou/CRROG/releases/latest)-->
 
 Customised realtime resume online generator
 
@@ -15,15 +14,15 @@ Spring Tool Suite 4 + JDK + Apache-tomcat 9.0.33 + XAMPP;
 
 Open XAMPP to run the PHPMyAdmin with MySQL; Open STS, select a workspace and follow the operations below:
 
-Step1: [File]->[Import]->[Maven]->[Existing Maven Projects]->[Select the source code];
+<b>Step1</b>: `File`->`Import`->`Maven`->`Existing Maven Projects`->`Select the source code`;
 
-Step2: [Right click the project]->[Maven]->[Update project...]->[Force Update of Snapshots/Releases]->[OK];
+<b>Step2</b>: `Right click the project`->`Maven`->`Update project...`->`Force Update of Snapshots/Releases`->`OK`;
 
-Step3: [Window]->[Show View]->[Other...]->[Server/Servers];
+<b>Step3</b>: `Window`->`Show View`->`Other...`->`Server/Servers`;
 
-Step4: [No servers are available. Click this link to create a new server...]->[Apache/Tomcat v9.0 Server]->[Next>]->[Browse...]->[The directory where you installed Apache-tomcat 9.0.33]->[JRE:]->[Add All>>]->[Finish];
+<b>Step4</b>: `No servers are available. Click this link to create a new server...`->`Apache/Tomcat v9.0 Server`->`Next>`->`Browse...`->`The directory where you installed Apache-tomcat 9.0.33`->`JRE:`->`Add All>>`->`Finish`;
 
-Step5: [Right click the project]->[Debug As]->[1 Debug on Server].
+<b>Step5</b>: `Right click the project`->`Debug As`->`1 Debug on Server`.
 
 ## MySQL
 
@@ -55,14 +54,10 @@ Our project aims to enable more students to have the opportunity to have a brigh
 
 #### 1.3 Primary user
 
-a) Students or graduates who are too busy to design resumes;
-
-b) Students or graduates who do not know how to create a resume, like newly graduated university students;
-
-c) Students or graduates who are tired of typing or creating their resumes;
-
-d) Students or graduates whose resumes are frequently updated;
-
+a) Students or graduates who are too busy to design resumes;<br>
+b) Students or graduates who do not know how to create a resume, like newly graduated university students;<br>
+c) Students or graduates who are tired of typing or creating their resumes;<br>
+d) Students or graduates whose resumes are frequently updated;<br>
 e) Companies looking to recruit students from the University of Sydney;
 
 ### 2 Significances
@@ -103,18 +98,12 @@ Admin component includes functions of login, finding the forgotten pass, banning
 
 Admin component includes the following functions: 
 
-a) login functions;
-
-b) finding the forgotten pass;
-
-c) banning/unbanning user/enterprise accounts;
-
-d) uploading new resume styles;
-
-e) auditing new enterprise accounts;
-
-f) message-board;
-
+a) login functions;<br>
+b) finding the forgotten pass;<br>
+c) banning/unbanning user/enterprise accounts;<br>
+d) uploading new resume styles;<br>
+e) auditing new enterprise accounts;<br>
+f) message-board;<br>
 g) resume viewing;
 
 The data streams flow as _Table 1_. Please note that there is only one administrator without a sign-in function. The admin user would receive an auditing request message if any enterprise user completed or edited the company information.
@@ -142,28 +131,21 @@ The user component includes functions of sign-in, login, finding the forgotten p
  
 #### 4.1 Register
 
-a) Edit personal information;
-
-b) Choose a resume template and edit resume;
-
+a) Edit personal information;<br>
+b) Choose a resume template and edit resume;<br>
 c) Give feedback by Message-board;
 
 #### 4.2 Enterprise
 
-a) Edit enterprise information;
-
-b) Collect resumes;
-
+a) Edit enterprise information;<br>
+b) Collect resumes;<br>
 c) Search users;
 
 #### 4.3 Administrator
 
-a) Upload resume templates;
-
-b) View Message-board (New enterprise alert or user feedback);
-
-c) Audit enterprise information;
-
+a) Upload resume templates;<br>
+b) View Message-board (New enterprise alert or user feedback);<br>
+c) Audit enterprise information;<br>
 d) Ban user or enterprise accounts.
 
 ### 5 Conclusion
