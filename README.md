@@ -2,9 +2,8 @@
 
 [![license](https://img.shields.io/github/license/george-chou/CRROG.svg)](https://github.com/george-chou/CRROG/blob/master/LICENSE)
 [![Java CI with Maven](https://github.com/george-chou/CRROG/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)](https://github.com/george-chou/CRROG/actions)
-<!--[![Github All Releases](https://img.shields.io/github/downloads/george-chou/CRROG/total.svg)](https://github.com/george-chou/CRROG/releases)
 
-Customised realtime resume online generator
+Customized realtime resume online generator
 
 ## Environment establishment
 
