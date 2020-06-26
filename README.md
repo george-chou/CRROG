@@ -19,7 +19,7 @@ Open XAMPP to run the PHPMyAdmin with MySQL; Open STS, select a workspace and fo
 
 <b>Step3</b>: `Window`→`Show View`→`Other...`→`Server/Servers`;
 
-<b>Step4</b>: `No servers are available. Click this link to create a new server...`→`Apache/Tomcat v9.0 Server`→`Next>`→`Browse...`→`The directory where you installed Apache-tomcat 9.0.33`→`JRE:`→`Add All>>`→`Finish`;
+<b>Step4</b>: `No servers are available. Click this link to create a new server...`→`Apache/Tomcat v9.0 Server`→`Next>`→`Browse...`→<br>`The directory where you installed Apache-tomcat 9.0.33`→`JRE:`→`Add All>>`→`Finish`;
 
 <b>Step5</b>: `Right click the project`→`Debug As`→`1 Debug on Server`.
 
@@ -103,7 +103,7 @@ c) Banning/unbanning user/enterprise accounts;<br>
 d) Uploading new resume styles;<br>
 e) Auditing new enterprise accounts;<br>
 f) Message-board;<br>
-g) Resume viewing;
+g) Resume viewing;<br>
 h) Others.
 
 The data streams flow as _Table 1_. Please note that there is only one administrator without a sign-in function. The admin user would receive an auditing request message if any enterprise user completed or edited the company information.
@@ -125,7 +125,7 @@ The user component includes functions of sign-in, login, finding the forgotten p
 ### 4 System data model
 
 <div align=center>
-    <b>Figure 2: The class diagram of the system data model</b>
+    <b>Figure 2: The class diagram of the system data model</b><br>
     <img width="605" src=".circleci/f2.PNG"/>
 </div>
  
