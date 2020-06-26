@@ -13,15 +13,15 @@ Spring Tool Suite 4 + JDK + Apache-tomcat 9.0.33 + XAMPP;
 
 Open XAMPP to run the PHPMyAdmin with MySQL; Open STS, select a workspace and follow the operations below:
 
-<b>Step1</b>: `File`->`Import`->`Maven`->`Existing Maven Projects`->`Select the source code`;
+<b>Step1</b>: `File`→`Import`→`Maven`→`Existing Maven Projects`→`Select the source code`;
 
-<b>Step2</b>: `Right click the project`->`Maven`->`Update project...`->`Force Update of Snapshots/Releases`->`OK`;
+<b>Step2</b>: `Right click the project`→`Maven`→`Update project...`→`Force Update of Snapshots/Releases`→`OK`;
 
-<b>Step3</b>: `Window`->`Show View`->`Other...`->`Server/Servers`;
+<b>Step3</b>: `Window`→`Show View`→`Other...`→`Server/Servers`;
 
-<b>Step4</b>: `No servers are available. Click this link to create a new server...`->`Apache/Tomcat v9.0 Server`->`Next>`->`Browse...`->`The directory where you installed Apache-tomcat 9.0.33`->`JRE:`->`Add All>>`->`Finish`;
+<b>Step4</b>: `No servers are available. Click this link to create a new server...`→`Apache/Tomcat v9.0 Server`→`Next>`→`Browse...`→`The directory where you installed Apache-tomcat 9.0.33`→`JRE:`→`Add All>>`→`Finish`;
 
-<b>Step5</b>: `Right click the project`->`Debug As`->`1 Debug on Server`.
+<b>Step5</b>: `Right click the project`→`Debug As`→`1 Debug on Server`.
 
 ## MySQL
 
@@ -29,7 +29,7 @@ To check database structures, please refer to domain codes (_User.java_ and _Com
 
 ## Deployment
 
-Please put your private key at the same path of _README.md_ and update your public DNS in _.circleci/config.yml_; Connect GitHub to CircleCI and create a building label for deployment on _README.md._
+Please put your private key at the same path of _README.md_ and update your public DNS in _.circleci/config.yml_; Connect GitHub to CircleCI and create a building label for deployment on _README.md_.
 
 ## DEV MANUAL
 
@@ -57,7 +57,7 @@ a) Students or graduates who are too busy to design resumes;<br>
 b) Students or graduates who do not know how to create a resume, like newly graduated university students;<br>
 c) Students or graduates who are tired of typing or creating their resumes;<br>
 d) Students or graduates whose resumes are frequently updated;<br>
-e) Companies looking to recruit students from the University of Sydney;
+e) Companies looking to recruit students from the University of Sydney.
 
 ### 2 Significances
 
@@ -97,13 +97,14 @@ Admin component includes functions of login, finding the forgotten pass, banning
 
 Admin component includes the following functions: 
 
-a) login functions;<br>
-b) finding the forgotten pass;<br>
-c) banning/unbanning user/enterprise accounts;<br>
-d) uploading new resume styles;<br>
-e) auditing new enterprise accounts;<br>
-f) message-board;<br>
-g) resume viewing;
+a) Login functions;<br>
+b) Finding the forgotten pass;<br>
+c) Banning/unbanning user/enterprise accounts;<br>
+d) Uploading new resume styles;<br>
+e) Auditing new enterprise accounts;<br>
+f) Message-board;<br>
+g) Resume viewing;
+h) Others.
 
 The data streams flow as _Table 1_. Please note that there is only one administrator without a sign-in function. The admin user would receive an auditing request message if any enterprise user completed or edited the company information.
 
@@ -132,13 +133,13 @@ The user component includes functions of sign-in, login, finding the forgotten p
 
 a) Edit personal information;<br>
 b) Choose a resume template and edit resume;<br>
-c) Give feedback by Message-board;
+c) Give feedback by Message-board.
 
 #### 4.2 Enterprise
 
 a) Edit enterprise information;<br>
 b) Collect resumes;<br>
-c) Search users;
+c) Search users.
 
 #### 4.3 Administrator
 
