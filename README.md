@@ -1,4 +1,4 @@
-# CRROG
+﻿# CRROG
 
 [![license](https://img.shields.io/github/license/george-chou/CRROG.svg)](https://github.com/george-chou/CRROG/blob/master/LICENSE)
 [![Java CI with Maven](https://github.com/george-chou/CRROG/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)](https://github.com/george-chou/CRROG/actions)
@@ -75,7 +75,7 @@ We simplify the system architecture of our project based on the Spring MVC frame
 
 <div align=center>
     <b>Figure 1: Simplified system architecture based on Spring MVC request processing flow</b>
-    <img width="605" src=".circleci/f1.PNG"/>
+    <img width="605" src="https://george-chou.github.io/covers/CRROG/f1.PNG"/>
 </div>
  
 Our work focuses on blue regions, and we do not need to care about rest structures since they have already got integrated into the program by the framework. The view structure corresponds to JSP files in our project's view path, while the controller part corresponds to JAVA files in the resource path of our project. Besides, we need to design our database structure adaptive for controllers.
@@ -90,7 +90,7 @@ Admin component includes functions of login, finding the forgotten pass, banning
 
 <div align=center>
     <b>Table 1: Admin component</b><br>
-    <img width="605" src=".circleci/t1.PNG"/>
+    <img width="605" src="https://george-chou.github.io/covers/CRROG/t1.PNG"/>
 </div>
 
 ##### 3.2.2 Enterprise component
@@ -110,7 +110,7 @@ The data streams flow as _Table 1_. Please note that there is only one administr
 
 <div align=center>
     <b>Table 2: Enterprise component</b><br>
-    <img width="605" src=".circleci/t2.PNG"/>
+    <img width="605" src="https://george-chou.github.io/covers/CRROG/t2.PNG"/>
 </div>
 
 ##### 3.2.3 User component
@@ -119,14 +119,14 @@ The user component includes functions of sign-in, login, finding the forgotten p
 
 <div align=center>
     <b>Table 3: User component</b><br>
-    <img width="605" src=".circleci/t3.PNG"/>
+    <img width="605" src="https://george-chou.github.io/covers/CRROG/t3.PNG"/>
 </div>
 
 ### 4 System data model
 
 <div align=center>
     <b>Figure 2: The class diagram of the system data model</b><br>
-    <img width="605" src=".circleci/f2.PNG"/>
+    <img width="605" src="https://george-chou.github.io/covers/CRROG/f2.PNG"/>
 </div>
  
 #### 4.1 Register
